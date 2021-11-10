@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "oofd-kz-parser"
+version = "0.1.0"
+description = "Parse tickets from consumer.oofd.kz"
+authors = ["Kirill Olar <kirill.olar26@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+selenium = "^4.0.0"
+pydantic = "^1.8.2"
+beautifulsoup4 = "^4.10.0"
+pyzbar = "^0.1.8"
+Pillow = "^8.4.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^21.10b0"
+isort = "^5.10.1"
+flake8 = "^4.0.1"
+pre-commit = "^2.15.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
