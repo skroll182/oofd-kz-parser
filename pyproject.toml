@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "oofd-kz-parser"
-version = "0.1.0"
+version = "0.1.1"
 description = "Parse tickets from consumer.oofd.kz"
 authors = ["Kirill Olar <kirill.olar26@gmail.com>"]
 repository = "https://github.com/skroll182/oofd-kz-parser"
